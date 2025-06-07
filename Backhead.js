@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.get('/pankaj', (req, res) => {
     res.send('pankaj!');
 })
-app.get('/yt', (req, res) => {
+app.get('/fyt', (req, res) => {
     res.send('ytr!');
 })
 app.listen(process.env.PORT, () => {
