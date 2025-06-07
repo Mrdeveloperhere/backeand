@@ -9,7 +9,9 @@ app.get('/', (req, res) => {
 app.get('/pankaj', (req, res) => {
     res.send('pankaj!');
 })
-
+app.get('/yt', (req, res) => {
+    res.send('ytr!');
+})
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening at http://localhost:${port}`);
 });
