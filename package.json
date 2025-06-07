@@ -1,0 +1,20 @@
+{
+  "name": "newlearing",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "pankaj singh",
+  "type": "commonjs",
+  "main": "Backhead.js",
+  "scripts": {
+    "start": "node backhead.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
